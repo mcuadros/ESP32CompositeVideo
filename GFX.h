@@ -3,9 +3,9 @@
 
 #include <Adafruit_GFX.h>
 
-class GFXCompositeVideo : public Adafruit_GFX {
+class GFX : public Adafruit_GFX {
 public:
-  GFXCompositeVideo(int16_t width, int16_t height);
+  GFX(int16_t width, int16_t height);
   void setup();
   void begin(int clear);
   void end();
